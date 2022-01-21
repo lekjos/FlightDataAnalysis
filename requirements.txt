@@ -1,0 +1,8 @@
+jupyter==1.0.0          # pretty notebook that runs code
+python-dotenv==0.19.2   # hides keys in .env file instead of repo
+psycopg2==2.9.3         # postgres python driver
+pandas==1.3.5           # for exploring data in Python
+sqlalchemy
+####
+
+numpy

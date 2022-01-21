@@ -1,3 +1,9 @@
+
+## Project Specific ##
+data/
+
+## Defaults ##
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
