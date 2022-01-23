@@ -48,10 +48,12 @@ class DBConn:
     def exec(self, sql_statement, *args):
         """
         Executes sql via self.cursor.execute(sql_statement, *args)
+        Returns records via .fetchall()
         """
         if self.cursor is None:
             self.get_cursor()
-        return self.cursor.execute(sql_statement, *args)     
+        self.cursor.execute(sql_statement, *args)
+        return self.cursor.fetchall()
         
     
     def get_cursor(self):
