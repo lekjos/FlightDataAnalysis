@@ -1,6 +1,13 @@
 # FlightDataAnalysis
 Flight Data Analysis Practice Project
 
+## About
+This project was a take home test for a BI interview I did. The company has been removed from the source tree using BFG. The instructions for the test were to:
+1. Download a dataset of US Department of Transportation flight data from 1987 to 2008. The data set is around 12 Gb non-compressed and has over 120M rows. It is available via GCP public data sets--you will need the following tables: Flights, Carriers, Airports
+2. Load the data into a local instance of Postgres
+3. Generate SQL queries to answer the 9 questions in the problem set, found in main.ipynb.
+4. Create a data visualization in Tableau
+
 ## Dependencies
 - python 3.9 or greater
 - postgres 11 or greater
